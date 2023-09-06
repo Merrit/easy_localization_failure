@@ -1,5 +1,6 @@
 Demonstrating a bug in easy_localization package. Only seems to be an issue on
-Windows, works fine on Linux.
+Windows, works fine on Linux; tested on `windows-2019` GitHub Actions runner and
+locally on Windows 11.
 
 - translations/en.json is complete
 - translations/de.json is missing 1 key that en has ("completed")
